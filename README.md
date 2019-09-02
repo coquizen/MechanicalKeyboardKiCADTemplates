@@ -19,7 +19,6 @@
 ---
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
 This repository contains a collection of KiCAD mechanical keyboard templates using a variety of MCU's. Within each templates are schematics that lay out the basic connection between essential components as well as sub-sheets where the designer can implement their own key matrix and, in some cases, RGB LED underglow implementations. In most cases the KiCAD libraries in use were provided by [ai03](https://github.com/ai03-2725)
 ---
 <!-- REQUIREMENTS -->
@@ -27,16 +26,18 @@ This repository contains a collection of KiCAD mechanical keyboard templates usi
 
 - [KiCAD v5](http://www.kicad-pcb.org/)
 
+<!-- INSTALLATION -->
 ## Installation
 
 - `git clone https://github.com/CaninoDev/Mechanica_Keyboard_KiCAD_Templates $TEMPLATE_DIRECTORY` where `$TEMPLATE_DIRECTORY` is the path to templates by your version of KiCAD. You can view and set the path by starting up KiCAD and going to `Preferences --> Configure Path --> KICAD_USER_TEMPLATE_DIR` 
 - Once installed, go to `File --> Start a New Project From Template` and select the desired template from the list.
 
+<!-- DISCLAIMER -->
 ## Disclaimer
 
 As I am still learning how to design keyboards, there may be some implementations that does not represent best practices or may even be incorrect. In such cases, please make a pull request and I will incorporate the corrections promptly. 
 ---
-
+<!-- CONTRIBUTING -->
 ## Contributing
 
 > As noted above, there may be some mistakes in implementation or improvements could be made. If you note either, please:
