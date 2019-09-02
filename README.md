@@ -1,8 +1,4 @@
-<a href="http://fvcproductions.com"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
-
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
-
-***INSERT GRAPHIC HERE (include hyperlink in image)***
+<a href="https://github.com/CaninoDev/Mechanical_Keyboard_KiCAD_Templates"><img src="http://i.imgur.com/2TQ86Dp.png" title="Mechanical Keyboards KiCAD Templates" alt="KiCAD Templates"></a>
 
 # Mechanical Keyboard KiCAD Templates
 
