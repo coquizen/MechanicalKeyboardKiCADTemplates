@@ -1,0 +1,3 @@
+[submodule "stm32f303"]
+	path = stm32f303
+	url = git@github.com:CaninoDev/stm32f303_keyboard_KiCAD_template.git
