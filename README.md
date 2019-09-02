@@ -6,9 +6,9 @@
 
  [![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger/issues) 
  [![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger/pulls) 
- [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
- [![Badges](http://img.shields.io/:badges-9/9-ff6799.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger)
+ [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
+<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 - [About The Project](#about-the-project)
@@ -16,8 +16,6 @@
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
-
-
 ---
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -37,7 +35,6 @@ This repository contains a collection of KiCAD mechanical keyboard templates usi
 ## Disclaimer
 
 As I am still learning how to design keyboards, there may be some implementations that does not represent best practices or may even be incorrect. In such cases, please make a pull request and I will incorporate the corrections promptly. 
-
 ---
 
 ## Contributing
@@ -56,9 +53,7 @@ As I am still learning how to design keyboards, there may be some implementation
 
 ### Step 4
     - 🔃 Create a new pull request using <a href="https://github.com/CaninoDev/Mechanica_Keyboard_KiCAD_Templates/compare/" target="_blank">`https://github.com/CaninoDev/Mechanica_Keyboard_KiCAD_Templates/compare/`</a> detailing in the comments whether it is a correction and reference the reasons either by explanation or datasheet reference. If it is an improvement, explain the improvement. This is so  that not only I can learn from mistakes but so that others can as well. 
-
 ---
-
 ## Thanks
 
 The following people have been invaluable in my journey in learning how to design keyboards:
@@ -77,9 +72,7 @@ These are related resources to mechanical keyboard design
 - [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
 - [Swill's Plate Building Tool](http://www.keyboard-layout-editor.com/)
 - [GeekHack's Making Stuff Together forum](https://geekhack.org/index.php?board=117.0)
-
 ---
-
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
