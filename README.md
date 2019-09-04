@@ -36,6 +36,8 @@ This repository contains a collection of KiCAD mechanical keyboard templates usi
 ## Disclaimer
 
 As I am still learning how to design keyboards, there may be some implementations that does not represent best practices or may even be incorrect. In such cases, please make a pull request and I will incorporate the corrections promptly. 
+
+When creating a new design from template, KiCAD copies over the local libraries but doesn't preserve their respective git. The results in a relatively larger project with the inability to effortless update local libraries. 
 ---
 <!-- CONTRIBUTING -->
 ## Contributing
