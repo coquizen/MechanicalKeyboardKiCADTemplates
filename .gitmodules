@@ -1,3 +1,9 @@
 [submodule "stm32f303"]
 	path = stm32f303
 	url = git@github.com:CaninoDev/stm32f303_keyboard_KiCAD_template.git
+[submodule "atmega328/MX_Alps_Hybrid.pretty"]
+	path = atmega328/MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "atmega328_keyboard_KiCAD_template"]
+	path = atmega328_keyboard_KiCAD_template
+	url = https://github.com/CaninoDev/atmega328_keyboard_KiCAD_template.git

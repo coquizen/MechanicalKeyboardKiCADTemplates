@@ -73,6 +73,7 @@ These are related resources to mechanical keyboard design
 - [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
 - [Swill's Plate Building Tool](http://www.keyboard-layout-editor.com/)
 - [GeekHack's Making Stuff Together forum](https://geekhack.org/index.php?board=117.0)
+- [ElectronicDesign's Make the Most of your USB Functionality](https://www.electronicdesign.com/power/make-most-your-usb-functionality)
 ---
 ## License
 
