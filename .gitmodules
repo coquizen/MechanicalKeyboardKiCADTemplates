@@ -7,3 +7,9 @@
 [submodule "atmega328_keyboard_KiCAD_template"]
 	path = atmega328_keyboard_KiCAD_template
 	url = https://github.com/CaninoDev/atmega328_keyboard_KiCAD_template.git
+[submodule "stm32f072"]
+	path = stm32f072
+	url = git@github.com:CaninoDev/stm32f072_keyboard_KiCAD_template.git
+[submodule "atmega328"]
+	path = atmega328
+	url = git@github.com:CaninoDev/atmega328_keyboard_KiCAD_template.git
