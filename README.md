@@ -12,7 +12,7 @@ A collection of KiCAD templates to help the budding designer start designing the
 ## Table of Contents
 
 - [About The Project](#about-the-project)
-- [Requiements](#requirements)
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
