@@ -13,3 +13,6 @@
 [submodule "atmega328"]
 	path = atmega328
 	url = git@github.com:CaninoDev/atmega328_keyboard_KiCAD_template.git
+[submodule "atmega32u4"]
+	path = atmega32u4
+	url = git@github.com:CaninoDev/atmega32u4_keyboard_KiCAD_template.git
