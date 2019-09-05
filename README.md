@@ -2,7 +2,7 @@
 
 # Mechanical Keyboard KiCAD Templates
 
-> A collection of KiCAD templates to help the budding designer start designing their own mechanical keyboards.
+A collection of KiCAD templates to help the budding designer start designing their own mechanical keyboards.
 
  [![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger/issues) 
  [![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger/pulls) 
@@ -16,6 +16,7 @@
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
+
 ---
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -33,21 +34,36 @@ This repository contains a collection of KiCAD mechanical keyboard templates usi
 - Once installed, go to `File --> Start a New Project From Template` and select the desired template from the list.
 
 <!-- NOTES -->
-## Design Guidelines
-### PCB Design
+## Notes
+
+### Definition of Terms
+
+MCU / Microcontroller
+ESD
+Voltage Regulator
+Decoupling Capacitors
+Pull Down Resistors
+
+<!-- Design Guidlines -->
+### Design Guidelines
+
+<!-- PCB DESIGN -->
+#### PCB Design
+
 - Keep traces from the connector to the MCU as short as possible.
 - Generally, avoid the use of sharp bends when laying down track.
 - Power and Ground traces should be wide.
 - Place the crystal as close to the MCU as possible.
 - Isolate the oscillator as much as possible:
   - Separate the ground plane underneath the crystal generally.
-- D+ and D- traces should match up in distance.
+- D+ and D- traces should match up in distance as close as possible (so the signals are in sync).
+- Fill Zones: It is not necessary to fill the entire PCB with ground/power plane. It is sufficient to encompass the crystal, USB and MCU footprints in a ground fill.
+
 <!-- DISCLAIMER -->
 ## Disclaimer
 
-As I am still learning how to design keyboards, there may be some implementations that does not represent best practices or may even be incorrect. In such cases, please make a pull request and I will incorporate the corrections promptly. 
+As I am still learning how to design keyboards, there may be some implementations that does not represent best practices or may even be incorrect. In such cases, please make a pull request and I will incorporate the corrections promptly. When creating a new design from template, KiCAD copies over the local libraries but doesn't preserve their respective git. This results in a relatively larger project with the inability to effortlessly update local libraries.
 
-When creating a new design from template, KiCAD copies over the local libraries but doesn't preserve their respective git. The results in a relatively larger project with the inability to effortlessly update local libraries. 
 ---
 <!-- CONTRIBUTING -->
 ## Contributing
