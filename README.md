@@ -36,7 +36,7 @@ This repository contains a collection of KiCAD mechanical keyboard templates usi
 <!-- NOTES -->
 ## Notes
 
-### Definition of Terms
+### Key Terms
 
 MCU / Microcontroller
 ESD
