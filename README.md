@@ -20,7 +20,9 @@ A collection of KiCAD templates to help the budding designer start designing the
 ---
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
 This repository contains a collection of KiCAD mechanical keyboard templates using a variety of MCU's. Within each templates are schematics that lay out the basic connection between essential components as well as sub-sheets where the designer can implement their own key matrix and, in some cases, RGB LED underglow implementations. In most cases the KiCAD libraries in use were provided by [ai03](https://github.com/ai03-2725)
+
 ---
 <!-- REQUIREMENTS -->
 ## Requirements
