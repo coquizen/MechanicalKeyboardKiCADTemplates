@@ -32,12 +32,22 @@ This repository contains a collection of KiCAD mechanical keyboard templates usi
 - `git clone https://github.com/CaninoDev/Mechanica_Keyboard_KiCAD_Templates $TEMPLATE_DIRECTORY` where `$TEMPLATE_DIRECTORY` is the path to templates by your version of KiCAD. You can view and set the path by starting up KiCAD and going to `Preferences --> Configure Path --> KICAD_USER_TEMPLATE_DIR` 
 - Once installed, go to `File --> Start a New Project From Template` and select the desired template from the list.
 
+<!-- NOTES -->
+## Design Guidelines
+### PCB Design
+- Keep traces from the connector to the MCU as short as possible.
+- Generally, avoid the use of sharp bends when laying down track.
+- Power and Ground traces should be wide.
+- Place the crystal as close to the MCU as possible.
+- Isolate the oscillator as much as possible:
+  - Separate the ground plane underneath the crystal generally.
+- D+ and D- traces should match up in distance.
 <!-- DISCLAIMER -->
 ## Disclaimer
 
 As I am still learning how to design keyboards, there may be some implementations that does not represent best practices or may even be incorrect. In such cases, please make a pull request and I will incorporate the corrections promptly. 
 
-When creating a new design from template, KiCAD copies over the local libraries but doesn't preserve their respective git. The results in a relatively larger project with the inability to effortless update local libraries. 
+When creating a new design from template, KiCAD copies over the local libraries but doesn't preserve their respective git. The results in a relatively larger project with the inability to effortlessly update local libraries. 
 ---
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -70,13 +80,16 @@ These resources were immensely helpful
 - [benroe's awesome list](https://github.com/BenRoe/awesome-mechanical-keyboard)
 - [komar's 'How To Make a Keybaord - The Matrix' blog post](http://blog.komar.be/how-to-make-a-keyboard-the-matrix/)
 - [blakesmith's 'Making my own USB Keyboard From Scratch' post](http://blakesmith.me/2019/01/16/making-my-own-usb-keyboard-from-scratch.html)
+- [Steamvan](https://github.com/jmdaly/steamvan)
+
 These are related resources to mechanical keyboard design
 - [3D Hub's guide to CNC Machining](https://www.3dhubs.com/knowledge-base/how-design-parts-cnc-machining)
 - [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
 - [Swill's Plate Building Tool](http://www.keyboard-layout-editor.com/)
 - [GeekHack's Making Stuff Together forum](https://geekhack.org/index.php?board=117.0)
 - [ElectronicDesign's Make the Most of your USB Functionality](https://www.electronicdesign.com/power/make-most-your-usb-functionality)
----
+- [Crystal Oscillator Design](http://hoani.net/engineering/crystal-oscillator-design/)
+-- 
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
