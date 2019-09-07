@@ -42,7 +42,7 @@ MCU / Microcontroller
 ESD
 Voltage Regulator
 Decoupling Capacitors
-Pull Down Resistors
+Pull Down Resistors: 
 
 <!-- Design Guidlines -->
 ### Design Guidelines
@@ -56,7 +56,7 @@ Pull Down Resistors
 - Place the crystal as close to the MCU as possible.
 - Isolate the oscillator as much as possible:
   - Separate the ground plane underneath the crystal generally.
-- D+ and D- traces should match up in distance as close as possible (so the signals are in sync).
+- D+ and D- traces should match up in distance as close as possible (so the signals are in sync). Use differential(90Ω) traces.
 - Fill Zones: It is not necessary to fill the entire PCB with ground/power plane. It is sufficient to encompass the crystal, USB and MCU footprints in a ground fill.
 
 <!-- DISCLAIMER -->
@@ -105,6 +105,7 @@ These are related resources to mechanical keyboard design
 - [GeekHack's Making Stuff Together forum](https://geekhack.org/index.php?board=117.0)
 - [ElectronicDesign's Make the Most of your USB Functionality](https://www.electronicdesign.com/power/make-most-your-usb-functionality)
 - [Crystal Oscillator Design](http://hoani.net/engineering/crystal-oscillator-design/)
+- [Make the Most of Your USB Functionality](https://www.electronicdesign.com/power/make-most-your-usb-functionality)
 -- 
 ## License
 
