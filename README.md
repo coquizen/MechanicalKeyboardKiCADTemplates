@@ -67,7 +67,7 @@ Pull Down Resistors
 Please note, some of the following keyboards have schematics that may be incomplete. I try to make note of those keyboards but cannot guarantee that I have caught them all.
 
 <!-- ATMEGA -->
-#### atmega
+#### [atmega32](https://www.microchip.com/wwwproducts/en/ATmega32)
 
 - [atmega32u4](https://www.microchip.com/wwwproducts/en/ATmega32U4)
   - [cpm43](https://github.com/Gtrx0/cpm43.git)
