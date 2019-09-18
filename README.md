@@ -61,6 +61,50 @@ Pull Down Resistors
 - D+ and D- traces should match up in distance as close as possible (so the signals are in sync). Use differential(90Ω) traces.
 - Fill Zones: It is not necessary to fill the entire PCB with ground/power plane. It is sufficient to encompass the crystal, USB and MCU footprints in a ground fill.
 
+<!-- REFERENCE KEYBOARDS -->
+### Reference Keyboards
+
+Please note, some of the following keyboards have schematics that may be incomplete. I try to make note of those keyboards but cannot guarantee that I have caught them all.
+
+<!-- ATMEGA -->
+#### atmega
+
+- [atmega32u4](https://www.microchip.com/wwwproducts/en/ATmega32U4)
+  - [cpm43](https://github.com/Gtrx0/cpm43.git)
+  - [ErgoDox](https://github.com/Ergodox-io/ErgoDox.git)
+  - [helix](https://github.com/MakotoKurauchi/helix.git)
+  - [KBD8X-MKII](https://github.com/ai03-2725/KBD8X-MKII-PCB.git)
+  - [Lily58](https://github.com/kata0510/Lily58.git)
+  - [PLain60](https://github.com/Maartenwut/plain60-c.git)
+  - [Voyager60](https://github.com/ai03-2725/Voyager60.git)
+  - [wc40noled](https://github.com/worldspawn00/wc40noled.git)
+- [atmega32a](https://www.microchip.com/wwwproducts/en/ATmega32A)
+  - [Planck - Throughole Variant](https://github.com/olkb/planck_thk.git)
+- [at90usb1286](https://www.microchip.com/wwwproducts/en/AT90USB1286)
+  - [JayKey1](https://github.com/josuegaleas/JayKey1.git)
+    - NOTE: There is another [variant](https://github.com/josuegaleas/JayKey2.git) but it appears to be *incomplete*.
+
+#### [stm32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) (NOTE: The stm32 MCU series are, for the most part, interchangeable with minimal changes. Pay particular attention that the F072 series have a built-clock suitable for USB data transmissions.)
+
+- [stm32f0x2](https://www.st.com/en/microcontrollers-microprocessors/stm32f0x2.html)
+  - f042
+    - [stm32 mech keyboard](https://github.com/julbouln/stm32_mech_keyboard.git)
+  - f072
+    - [DashKey](https://github.com/logically-c/DashKey.git)
+    - [Shi-Chi](https://github.com/FateNozomi/shichi-pcb.git)
+    - [st40](https://github.com/coarse/st40.git)
+      - NOTE: This appears to be *incomplete*.
+    - [ut47.3](https://github.com/coarse/UT47.3.git)
+      - NOTE: This appears to be *incomplete*.
+  - f103
+    - [stm60](https://github.com/yangdigi/STM60-Keyboard-PCB.git)
+- [stm32f3](https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f3-series.html)
+  - f303
+    - [CO60](https://github.com/jmdaly/CO60.git)
+    - [keypad](https://github.com/Fabian0520/keypad)
+    - [Shark](https://github.com/Gondolindrim/SharkPCB.git)
+    - [SteamVan](https://github.com/jmdaly/steamvan)
+
 <!-- DISCLAIMER -->
 ## Disclaimer
 
