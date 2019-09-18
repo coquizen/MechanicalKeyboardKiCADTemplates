@@ -82,9 +82,10 @@ Please note, some of the following keyboards have schematics that may be incompl
   - [Planck - Throughole Variant](https://github.com/olkb/planck_thk.git)
 - [at90usb1286](https://www.microchip.com/wwwproducts/en/AT90USB1286)
   - [JayKey1](https://github.com/josuegaleas/JayKey1.git)
-    - NOTE: There is another [variant](https://github.com/josuegaleas/JayKey2.git) but it appears to be *incomplete*.
 
-#### [stm32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) (NOTE: The stm32 MCU series are, for the most part, interchangeable with minimal changes. Pay particular attention that the F072 series have a built-clock suitable for USB data transmissions.)
+#### [stm32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) 
+
+(NOTE: The stm32 MCU series are, for the most part, interchangeable with minimal changes. Pay particular attention that the F072 series have a built-clock suitable for USB data transmissions.)
 
 - [stm32f0x2](https://www.st.com/en/microcontrollers-microprocessors/stm32f0x2.html)
   - f042
@@ -92,10 +93,8 @@ Please note, some of the following keyboards have schematics that may be incompl
   - f072
     - [DashKey](https://github.com/logically-c/DashKey.git)
     - [Shi-Chi](https://github.com/FateNozomi/shichi-pcb.git)
-    - [st40](https://github.com/coarse/st40.git)
-      - NOTE: This appears to be *incomplete*.
-    - [ut47.3](https://github.com/coarse/UT47.3.git)
-      - NOTE: This appears to be *incomplete*.
+    - [st40](https://github.com/coarse/st40.git) *incomplete*
+    - [ut47.3](https://github.com/coarse/UT47.3.git) *incomplete*
   - f103
     - [stm60](https://github.com/yangdigi/STM60-Keyboard-PCB.git)
 - [stm32f3](https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f3-series.html)
