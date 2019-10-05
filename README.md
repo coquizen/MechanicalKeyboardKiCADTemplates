@@ -135,6 +135,12 @@ The following people have been invaluable in my journey in learning how to desig
 - Worldspawn#9316, Abec13#3342, Comrade. SeungheonOh#4283, and The_Royal • 🍦 GMK Fro.Yo 🍦#3000 at the '40% Keeb' Discord server. 
 - ai03#2725, PheonixStarr#0371, Xaetral#3486 at the 'ai03 Design Studio' Discord server
 
+KiCAD libraries to aid in the schematics and pcb design
+- [ai03's MX/Alps Hybrid](https://github.com/ai03-2725/MX_Alps_Hybrid)
+- [my fork of ai03's MX/Alps Hybrid](https://github.com/CaninoDev/MX_Alps_Hybrid) that includes hotswap variants as well (pull request approval pending).
+- [ai03's random keyboard parts](https://github.com/ai03-2725/random-keyboard-parts.pretty)
+- [keebio's parts](https://github.com/keebio/Keebio-Parts.pretty)
+
 These resources were immensely helpful
 - [ai03's wiki](https://wiki.ai03.me/)
 - [delapoite's list](https://github.com/Delapouite/awesome-keyboard)
