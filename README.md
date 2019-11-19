@@ -75,7 +75,7 @@ Please note, some of the following keyboards have schematics that may be incompl
   - [helix](https://github.com/MakotoKurauchi/helix.git)
   - [KBD8X-MKII](https://github.com/ai03-2725/KBD8X-MKII-PCB.git)
   - [Lily58](https://github.com/kata0510/Lily58.git)
-  - [PLain60](https://github.com/Maartenwut/plain60-c.git)
+  - [Plain60](https://github.com/Maartenwut/plain60-c.git)
   - [Voyager60](https://github.com/ai03-2725/Voyager60.git)
   - [wc40noled](https://github.com/worldspawn00/wc40noled.git)
 - [atmega32a](https://www.microchip.com/wwwproducts/en/ATmega32A)
