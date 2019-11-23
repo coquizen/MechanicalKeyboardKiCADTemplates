@@ -82,6 +82,7 @@ Please note, some of the following keyboards have schematics that may be incompl
   - [Planck - Throughole Variant](https://github.com/olkb/planck_thk.git)
 - [at90usb1286](https://www.microchip.com/wwwproducts/en/AT90USB1286)
   - [JayKey1](https://github.com/josuegaleas/JayKey1.git)
+  - [CoquiKeyboard](https://github.com/CaninoDev/CoquiKeyboard.git)
 
 #### [stm32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) 
 
@@ -97,6 +98,7 @@ Please note, some of the following keyboards have schematics that may be incompl
     - [ut47.3](https://github.com/coarse/UT47.3.git) *incomplete*
   - f103
     - [stm60](https://github.com/yangdigi/STM60-Keyboard-PCB.git)
+    - [Hammerhead](https://github.com/Gondolindrim/Hammerhead.git)
 - [stm32f3](https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f3-series.html)
   - f303
     - [CO60](https://github.com/jmdaly/CO60.git)
