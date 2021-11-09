@@ -27,7 +27,7 @@ This repository contains a collection of KiCAD mechanical keyboard templates usi
 <!-- REQUIREMENTS -->
 ## Requirements
 
-- [KiCAD v5](http://www.kicad-pcb.org/)
+- [KiCAD v5](https://www.kicad.org/)
 
 <!-- INSTALLATION -->
 ## Installation
